@@ -1,0 +1,66 @@
+*{margin: 0; padding: 0;}
+.nav_bar{
+    background: #292b2c;
+    opacity: .7;
+    border-bottom: 3px solid rgb(18, 117, 167);
+}
+a.navbar-brand {
+    font-size: 20px;
+    /* font-weight: bolder; */
+    color: #babbbb;
+}
+a.nav-link {
+    font-size: 16px;
+    color: rgb(107, 109, 110);
+}
+a.nav-link:hover {
+    color: #babbbb;
+}
+.home_section{
+    background: url(img/close-up-of-wooden-plank-326311.jpg) center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.form_card{
+    background:#076ad4;
+}
+.form_card .form-control{
+    margin-bottom: 15px;
+}
+i.fa.fa-check-square.align-self-center.mr-4 {
+    color: #3988dd;
+    font-size: 33px;
+}
+.media {
+    padding: 15px 0;
+}
+h1.display-4 {
+    padding-bottom: 19px;
+}
+/* .bg_opacity{
+    background: #292b2c;
+    opacity: .7;
+} */
+.extra {
+    padding-top: 123px;
+}
+@media(max-width:768px){
+    .display-4{
+	font-size:45px
+}
+}
+
+#explore_section{
+    background: #333333;
+
+}
+.explore_main .img-fluid {
+    margin-top: 57px;
+    padding-bottom: 30px;
+}
+.custom_bg{
+    background:#333;
+    color: white;
+}

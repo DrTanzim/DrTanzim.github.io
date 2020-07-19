@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#bg .left_img {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -10;
+}
+
+#main_section .row {
+  position: relative;
+  padding-bottom: 1.3rem;
+}
+
+#main_section .icon {
+  font-size: 6rem;
+  color: #10ff00;
+}
+
+#main_section .QR_code {
+  width: 10rem;
+  -webkit-box-shadow: .6rem .6rem 1.7rem 0 black;
+          box-shadow: .6rem .6rem 1.7rem 0 black;
+}
+
+#main_section .real_container {
+  width: 100%;
+  height: 80vh;
+  background: #000000e6;
+  border-radius: 5rem;
+  color: #fff35f;
+  margin-top: 10vh;
+  position: relative;
+}
+
+#main_section hr {
+  border: .1rem solid #00ffb3;
+  width: 70%;
+  margin: auto;
+}
+
+#main_section .col-6 {
+  padding: .1rem;
+  margin: 0;
+  background: radial-gradient(#f31e1e, transparent);
+  border-radius: 4.4rem;
+}
+
+#main_section .welcome {
+  color: white;
+  font-size: 4.5rem;
+  font-weight: bolder;
+  text-shadow: .3rem .2rem 0rem red;
+  padding-top: 2.7rem;
+}
+
+#main_section .follow {
+  font-weight: 300;
+  font-size: 2.3rem;
+  color: #e1ebf5;
+  text-shadow: .3rem .1rem .9rem black;
+  font-weight: 600;
+}
+
+#main_section .tv_mobile {
+  position: absolute;
+  width: 22.7rem;
+  top: -6.2rem;
+  left: 2.5rem;
+}
+
+#main_section .tv_man {
+  position: absolute;
+  width: 20rem;
+  right: 4rem;
+  bottom: -2.1rem;
+  border-radius: 1.1rem;
+}
+
+#main_section .count {
+  font-weight: 800;
+  font-size: 4.4rem;
+  border: .2rem solid #ff9898;
+  padding: 0 2rem;
+  border-radius: 1rem;
+}
+
+#main_section .enjoy {
+  padding-top: 1.4rem;
+}
+
+#main_section .wifi_icon {
+  color: #a191fb;
+}
+
+#main_section h3 {
+  font-size: 2.6rem;
+  text-shadow: .2rem .1rem 0rem #ff0000;
+}
+
+#main_section h4 {
+  padding-top: 2rem;
+  font-size: 2rem;
+  color: white;
+}
+
+#main_section .or_container {
+  position: relative;
+}
+
+#main_section .or {
+  position: absolute;
+  top: 41%;
+  left: -2.1rem;
+  padding: .6rem 1.1rem;
+  background: #af0e0e;
+  font-size: 1.9rem;
+  font-weight: 600;
+  border-radius: 50%;
+  -webkit-box-shadow: 0rem 0rem 0 .3rem #ad2626;
+          box-shadow: 0rem 0rem 0 .3rem #ad2626;
+}
+
+@media (max-width: 5000px) {
+  html {
+    font-size: 110%;
+  }
+  #main_section .welcome {
+    padding-top: 16vh;
+  }
+  #main_section .follow {
+    padding-bottom: 1vh;
+  }
+  #main_section .my_img {
+    width: 20rem;
+  }
+  #main_section .tv_mobile {
+    left: 1.6rem;
+    top: -9rem;
+  }
+  #main_section .tv_man {
+    right: 3.5rem;
+    bottom: -1.9rem;
+  }
+  #main_section .QR_code {
+    width: 10rem;
+  }
+  #main_section .or {
+    top: 9rem;
+  }
+  #main_section .count {
+    padding: .1rem 1.5rem;
+  }
+}
+
+@media (max-width: 2000px) {
+  html {
+    font-size: 82.5%;
+  }
+  #main_section .welcome {
+    padding-top: 16vh;
+  }
+  #main_section .follow {
+    padding-bottom: 1vh;
+  }
+  #main_section .my_img {
+    width: 25rem;
+  }
+  #main_section .tv_mobile {
+    left: 1.6rem;
+    top: -9rem;
+  }
+  #main_section .tv_man {
+    right: 3.5rem;
+    bottom: -1.9rem;
+  }
+  #main_section .QR_code {
+    width: 10rem;
+  }
+  #main_section .or {
+    top: 9rem;
+  }
+  #main_section .count {
+    padding: .1rem 1.5rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  html {
+    font-size: 62.5%;
+  }
+  #main_section .welcome {
+    padding-top: 16vh;
+  }
+  #main_section .follow {
+    padding-bottom: 1vh;
+  }
+  #main_section .my_img {
+    width: 25rem;
+  }
+  #main_section .tv_mobile {
+    left: 1.6rem;
+    top: -9rem;
+  }
+  #main_section .tv_man {
+    right: 3.5rem;
+    bottom: -1.9rem;
+  }
+  #main_section .QR_code {
+    width: 6rem;
+  }
+  #main_section .or {
+    top: 5rem;
+  }
+  #main_section .count {
+    padding: .1rem 1.5rem;
+  }
+}
+
+@media (max-width: 1170px) {
+  html {
+    font-size: 65%;
+  }
+  #main_section .welcome {
+    padding-top: 16vh;
+  }
+  #main_section .follow {
+    padding-bottom: 1vh;
+  }
+  #main_section .my_img {
+    width: 25rem;
+  }
+  #main_section .tv_mobile {
+    left: 1.6rem;
+    top: -9rem;
+  }
+  #main_section .tv_man {
+    right: 3.5rem;
+    bottom: -1.9rem;
+  }
+  #main_section .QR_code {
+    width: 6rem;
+  }
+  #main_section .or {
+    top: -1rem;
+  }
+  #main_section .col-6 {
+    margin-top: 1vh;
+  }
+  #main_section .count {
+    padding: .1rem 1.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 62.5%;
+  }
+  #main_section .welcome {
+    padding-top: 16vh;
+  }
+  #main_section .my_img {
+    width: 27rem;
+  }
+  #main_section .tv_mobile {
+    left: -7rem;
+    top: -9rem;
+  }
+  #main_section .tv_man {
+    right: -2.5rem;
+  }
+  #main_section .QR_code {
+    width: 6rem;
+  }
+  #main_section .or {
+    top: -1rem;
+  }
+  #main_section .col-6 {
+    margin-top: 1vh;
+    padding-top: 1rem;
+  }
+  #main_section .count {
+    padding: .1rem 1.5rem;
+  }
+  #main_section .icon {
+    font-size: 6.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  #main_section .welcome {
+    padding-top: 12vh;
+  }
+  #main_section .my_img {
+    width: 17rem;
+  }
+  #main_section .tv_mobile {
+    left: -1.4rem;
+    top: -5.5rem;
+  }
+  #main_section .tv_man {
+    right: 0rem;
+    bottom: -1.5rem;
+  }
+  #main_section .QR_code {
+    width: 6rem;
+  }
+  #main_section .or {
+    top: -.1rem;
+  }
+  #main_section .col-6 {
+    margin-top: 5vh;
+  }
+  #main_section .count {
+    padding: .1rem 1.5rem;
+  }
+  #main_section .icon {
+    font-size: 6.5rem;
+  }
+}
+
+@media (max-width: 667px) {
+  html {
+    font-size: 40%;
+  }
+  #main_section .welcome {
+    padding-top: 10vh;
+  }
+  #main_section .follow {
+    padding-bottom: 5vh;
+  }
+  #main_section .my_img {
+    width: 16rem;
+  }
+  #main_section .tv_mobile {
+    top: -6rem;
+  }
+  #main_section .QR_code {
+    width: 5rem;
+  }
+  #main_section .or {
+    top: 7.8rem;
+  }
+  #main_section .count {
+    padding: .3rem 1.5rem;
+  }
+  #main_section .icon {
+    font-size: 6.5rem;
+  }
+}
+
+@media (max-width: 568px) {
+  html {
+    font-size: 35%;
+  }
+  #main_section .my_img {
+    width: 11rem;
+  }
+  #main_section .tv_mobile {
+    left: 1rem;
+  }
+  #main_section .tv_man {
+    right: 1.5rem;
+  }
+  #main_section .welcome {
+    padding-top: 10vh;
+  }
+  #main_section .QR_code {
+    width: 5rem;
+  }
+  #main_section .or {
+    top: -.4rem;
+  }
+  #main_section .count {
+    padding: .1rem .9rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

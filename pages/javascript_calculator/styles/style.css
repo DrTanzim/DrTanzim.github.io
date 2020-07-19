@@ -1,0 +1,12 @@
+body {
+  background: rgba(0, 0, 0, 0.582);
+}
+
+p.display_p {
+  min-height: 100px;
+  background: #e0c1c1;
+  border: 10px solid #8989b3;
+  padding: 10px;
+  word-wrap: break-word;
+}
+/*# sourceMappingURL=style.css.map */

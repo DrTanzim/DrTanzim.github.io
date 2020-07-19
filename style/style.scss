@@ -1,0 +1,71 @@
+#navbar {
+    background: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 50;
+    .navbar-light .navbar-brand {
+        color: rgba(255, 255, 255, 0.9);
+        font-family: dancing;
+        font-weight: bolder;
+        font-size: 32px;
+
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        padding-left: 15px;
+        padding-right: 15px;
+        transition: .5s;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        background: #eadada;
+        color: black;
+        box-shadow: 0px 13px 20px black;
+        transform: scale(1.05);
+    }
+    .dropdown-menu.show {
+        background: #0a0a0a;
+        
+    }
+    a.dropdown-item {
+        color: wheat;
+        font-size: 19px;
+        font-weight: 600;
+    }
+    a.dropdown-item:hover{
+        color: black;
+        background: white;
+    }
+    button.navbar-toggler {
+        background: wheat;
+    }
+}
+@font-face {
+    font-family: dancing;
+    src: url(../lib/font-family/DancingScript-VariableFont_wght.woff);
+}
+@keyframes mymove {
+    0%{top: 0px;}
+    100%{top: 200px;}
+}
+#home{
+    padding-top: 150px;
+    #headingOne, #headingTwo {
+        padding: 0;
+    }
+    h5{
+        margin: 0px;
+    }
+    h5{
+        margin: 0px;
+        padding: 13px 0;
+        text-align: center;
+    }
+    .spinner-border.text-danger {
+        margin-left: 22px;
+        margin-bottom: -7px;
+    }
+}
